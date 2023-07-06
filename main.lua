@@ -307,7 +307,7 @@ do
     }
     if not startup_args.ignoreui then
         library.screengui = Instance.new('ScreenGui')
-        library.screengui.Parent = gethui()
+        library.screengui.Parent = game:GetService("CoreGui")
 
         local button = Instance.new('ImageButton')
         button.Parent = library.screengui
