@@ -305,12 +305,9 @@ do
         Enum.KeyCode.CapsLock,
         Enum.KeyCode.Tab
     }
-
-    if syn then gethui = syn.protect_gui end
     if not startup_args.ignoreui then
         library.screengui = Instance.new('ScreenGui')
-        gethui(library.screengui)
-        library.screengui.Parent = game:GetService('CoreGui')
+        library.screengui.Parent = gethui()
 
         local button = Instance.new('ImageButton')
         button.Parent = library.screengui
