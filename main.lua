@@ -3,6 +3,7 @@
     | fully by liamm#0223 (561301972293255180)            |
     | last modified 12/17/2022                            |
     | if used, give credit.                               |
+    | Added UWP Support Vertigo                           |
     |                                                     |
     \-----------------------------------------------------/
 
